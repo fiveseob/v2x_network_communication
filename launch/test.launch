@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="relaysw" type="run.sh" name="relay" output="screen"/>	
+	<node pkg="relaysw" type="run_v2x.sh" name="relay" output="screen"/>
+</launch>
